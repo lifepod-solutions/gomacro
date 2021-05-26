@@ -21,9 +21,9 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base"
+	"github.com/lifepod-solutions/gomacro/base/output"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 // a generic type declaration.

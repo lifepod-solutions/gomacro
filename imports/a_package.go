@@ -19,9 +19,9 @@ package imports
 import (
 	. "reflect"
 
-	syscall "github.com/cosmos72/gomacro/imports/syscall"
-	thirdparty "github.com/cosmos72/gomacro/imports/thirdparty"
-	"github.com/cosmos72/gomacro/imports/util"
+	syscall "github.com/lifepod-solutions/gomacro/imports/syscall"
+	thirdparty "github.com/lifepod-solutions/gomacro/imports/thirdparty"
+	"github.com/lifepod-solutions/gomacro/imports/util"
 )
 
 type PackageUnderlying = struct { // unnamed
@@ -44,9 +44,9 @@ type PackageMap map[string]Package // named, can have methods
 
 var Packages = make(PackageMap)
 
-// reflection: allow interpreted code to import "github.com/cosmos72/gomacro/imports"
+// reflection: allow interpreted code to import "github.com/lifepod-solutions/gomacro/imports"
 func init() {
-	Packages["github.com/cosmos72/gomacro/imports"] = Package{
+	Packages["github.com/lifepod-solutions/gomacro/imports"] = Package{
 		Binds: map[string]Value{
 			"Packages": ValueOf(&Packages).Elem(),
 		},

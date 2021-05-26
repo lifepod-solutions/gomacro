@@ -20,9 +20,9 @@ import (
 	"go/ast"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base"
+	"github.com/lifepod-solutions/gomacro/base/reflect"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 type funcMaker struct {

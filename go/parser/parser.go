@@ -24,8 +24,8 @@ import (
 	"strings"
 	"unicode"
 
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	"github.com/cosmos72/gomacro/go/scanner"
+	etoken "github.com/lifepod-solutions/gomacro/go/etoken"
+	"github.com/lifepod-solutions/gomacro/go/scanner"
 )
 
 // The parser structure holds the parser's internal state.

@@ -22,10 +22,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos72/gomacro/base/paths"
+	"github.com/lifepod-solutions/gomacro/base/paths"
 
-	"github.com/cosmos72/gomacro/base"
-	bstrings "github.com/cosmos72/gomacro/base/strings"
+	"github.com/lifepod-solutions/gomacro/base"
+	bstrings "github.com/lifepod-solutions/gomacro/base/strings"
 )
 
 // ====================== Cmd ==============================
@@ -335,7 +335,7 @@ func (ir *Interp) cmdEnv(arg string, opt base.CmdOpt) (string, base.CmdOpt) {
 
 func (ir *Interp) cmdCopyright(arg string, opt base.CmdOpt) (string, base.CmdOpt) {
 	g := &ir.Comp.Globals
-	g.Fprintf(g.Stdout, `// Copyright (C) 2018-2020 Massimiliano Ghilardi <https://github.com/cosmos72/gomacro>
+	g.Fprintf(g.Stdout, `// Copyright (C) 2018-2020 Massimiliano Ghilardi <https://github.com/lifepod-solutions/gomacro>
 // License MPL v2.0+: Mozilla Public License version 2.0 or later <http://mozilla.org/MPL/2.0/>
 // This is free software with ABSOLUTELY NO WARRANTY.
 `)

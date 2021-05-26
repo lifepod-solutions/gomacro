@@ -17,8 +17,8 @@
 package debug
 
 import (
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/lifepod-solutions/gomacro/base"
+	"github.com/lifepod-solutions/gomacro/fast"
 )
 
 type DebugOp = fast.DebugOp

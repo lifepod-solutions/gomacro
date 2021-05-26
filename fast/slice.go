@@ -19,7 +19,7 @@ package fast
 import (
 	"go/ast"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 // SliceExpr compiles slice[lo:hi] and slice[lo:hi:max]

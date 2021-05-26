@@ -17,8 +17,8 @@
 package fast
 
 import (
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base/reflect"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 // placeSetValue compiles 'place = value' where value is a reflect.Value passed at runtime.

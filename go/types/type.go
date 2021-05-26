@@ -7,7 +7,7 @@ package types
 import (
 	"sort"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/lifepod-solutions/gomacro/go/etoken"
 )
 
 // A Type represents a type of Go.

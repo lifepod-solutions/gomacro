@@ -8,7 +8,7 @@ import (
 	"go/token"
 	"testing"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/lifepod-solutions/gomacro/go/etoken"
 )
 
 func mktuple(ts ...Type) *Tuple {

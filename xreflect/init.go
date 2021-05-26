@@ -20,7 +20,7 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/go/types"
+	"github.com/lifepod-solutions/gomacro/go/types"
 )
 
 var rbasictypes = []r.Type{

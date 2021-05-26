@@ -20,7 +20,7 @@ import (
 	"fmt"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/go/types"
+	"github.com/lifepod-solutions/gomacro/go/types"
 )
 
 // IsMethod reports whether a function type's contains a receiver, i.e. is a method.

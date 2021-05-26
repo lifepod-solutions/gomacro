@@ -24,9 +24,9 @@ import (
 	r "reflect"
 	"strconv"
 
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/jit"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base/output"
+	"github.com/lifepod-solutions/gomacro/jit"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 // jit.Comp wrapper

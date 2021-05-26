@@ -20,8 +20,8 @@ import (
 	r "reflect"
 	"sync"
 
-	"github.com/cosmos72/gomacro/go/types"
-	"github.com/cosmos72/gomacro/go/typeutil"
+	"github.com/lifepod-solutions/gomacro/go/types"
+	"github.com/lifepod-solutions/gomacro/go/typeutil"
 )
 
 type Types struct {
@@ -152,7 +152,7 @@ func (v *Universe) importPackage(path string) *Package {
 	}
 	// debugf("imported package %q", path)
 
-	// convert go/types.Package -> github.com/cosmos72/go/types.Package
+	// convert go/types.Package -> github.com/lifepod-solutions/go/types.Package
 	v.cachePackage(pkg)
 	return (*Package)(pkg)
 }

@@ -25,8 +25,8 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 func (c *Comp) func1ret1(t xr.Type, m *funcMaker) func(*Env) xr.Value {

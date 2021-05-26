@@ -24,7 +24,7 @@ package fast
 import (
 	"go/ast"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 func (c *Comp) Lss(node *ast.BinaryExpr, xe *Expr, ye *Expr) *Expr {

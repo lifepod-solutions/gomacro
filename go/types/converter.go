@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// This file converts objects from go/types to github.com/cosmos72/go/types
+// This file converts objects from go/types to github.com/lifepod-solutions/go/types
 
 package types
 
@@ -45,7 +45,7 @@ func (c *Converter) Init(universe *Scope) {
 	}
 }
 
-// convert *go/types.Package -> *github.com/cosmos72/gomacro/go/types.Package
+// convert *go/types.Package -> *github.com/lifepod-solutions/gomacro/go/types.Package
 func (c *Converter) Package(g *types.Package) *Package {
 	if g == nil {
 		return nil
@@ -62,7 +62,7 @@ func (c *Converter) Package(g *types.Package) *Package {
 	return p
 }
 
-// convert go/types.Object -> github.com/cosmos72/gomacro/go/types.Object
+// convert go/types.Object -> github.com/lifepod-solutions/gomacro/go/types.Object
 func (c *Converter) Object(g types.Object) Object {
 	switch g := g.(type) {
 	case *types.Const:
@@ -78,17 +78,17 @@ func (c *Converter) Object(g types.Object) Object {
 	}
 }
 
-// convert *go/types.Const -> *github.com/cosmos72/gomacro/go/types.Const
+// convert *go/types.Const -> *github.com/lifepod-solutions/gomacro/go/types.Const
 func (c *Converter) Const(g *types.Const) *Const {
 	return NewConst(g.Pos(), c.mkpackage(g.Pkg()), g.Name(), c.Type(g.Type()), g.Val())
 }
 
-// convert *go/types.Func -> *github.com/cosmos72/gomacro/go/types.Func
+// convert *go/types.Func -> *github.com/lifepod-solutions/gomacro/go/types.Func
 func (c *Converter) Func(g *types.Func) *Func {
 	return NewFunc(g.Pos(), c.mkpackage(g.Pkg()), g.Name(), c.Type(g.Type()).(*Signature))
 }
 
-// convert *go/types.TypeName -> *github.com/cosmos72/gomacro/go/types.TypeName
+// convert *go/types.TypeName -> *github.com/lifepod-solutions/gomacro/go/types.TypeName
 func (c *Converter) TypeName(g *types.TypeName) *TypeName {
 	ret, _ := c.mktypename(g)
 	if ret.typ == nil {
@@ -97,12 +97,12 @@ func (c *Converter) TypeName(g *types.TypeName) *TypeName {
 	return ret
 }
 
-// convert *go/types.Var -> *github.com/cosmos72/gomacro/go/types.Var
+// convert *go/types.Var -> *github.com/lifepod-solutions/gomacro/go/types.Var
 func (c *Converter) Var(g *types.Var) *Var {
 	return NewVar(g.Pos(), c.mkpackage(g.Pkg()), g.Name(), c.Type(g.Type()))
 }
 
-// convert go/types.Type -> github.com/cosmos72/gomacro/go/types.Type
+// convert go/types.Type -> github.com/lifepod-solutions/gomacro/go/types.Type
 func (c *Converter) Type(g types.Type) Type {
 	ret := c.typ(g)
 	for _, t := range c.tocomplete {

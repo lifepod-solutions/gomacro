@@ -19,9 +19,9 @@ package fast
 import (
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/ast2"
+	"github.com/lifepod-solutions/gomacro/base/reflect"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 func (ir *Interp) Inspect(src string) {

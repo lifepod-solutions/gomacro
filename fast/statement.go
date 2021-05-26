@@ -22,10 +22,10 @@ import (
 	r "reflect"
 	"sort"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/gls"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base"
+	"github.com/lifepod-solutions/gomacro/base/output"
+	"github.com/lifepod-solutions/gomacro/gls"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 func stmtNop(env *Env) (Stmt, *Env) {

@@ -19,7 +19,7 @@ package debug
 import (
 	"sort"
 
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/lifepod-solutions/gomacro/fast"
 )
 
 // show local variables

@@ -22,11 +22,11 @@ import (
 	"go/importer"
 	gotypes "go/types"
 
-	"github.com/cosmos72/gomacro/go/types"
+	"github.com/lifepod-solutions/gomacro/go/types"
 )
 
 type Importer struct {
-	// converts from go/types to github.com/cosmos72/gomacro/go/types
+	// converts from go/types to github.com/lifepod-solutions/gomacro/go/types
 	Converter types.Converter
 	from      gotypes.ImporterFrom
 	compat    gotypes.Importer

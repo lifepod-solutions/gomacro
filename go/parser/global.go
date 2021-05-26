@@ -11,7 +11,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	etoken "github.com/cosmos72/gomacro/go/etoken"
+	etoken "github.com/lifepod-solutions/gomacro/go/etoken"
 )
 
 // A Mode value is a set of flags (or 0).

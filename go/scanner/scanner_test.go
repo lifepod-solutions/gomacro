@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/lifepod-solutions/gomacro/go/etoken"
 )
 
 var fset = etoken.NewFileSet()

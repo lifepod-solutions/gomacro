@@ -21,10 +21,10 @@ import (
 	"io"
 	"sort"
 
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/go/types"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base/output"
+	"github.com/lifepod-solutions/gomacro/base/paths"
+	"github.com/lifepod-solutions/gomacro/go/types"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 func (b Builtin) String() string {

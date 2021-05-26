@@ -22,13 +22,13 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	mp "github.com/cosmos72/gomacro/go/parser"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/lifepod-solutions/gomacro/ast2"
+	"github.com/lifepod-solutions/gomacro/base"
+	"github.com/lifepod-solutions/gomacro/base/output"
+	"github.com/lifepod-solutions/gomacro/base/reflect"
+	etoken "github.com/lifepod-solutions/gomacro/go/etoken"
+	mp "github.com/lifepod-solutions/gomacro/go/parser"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 var (

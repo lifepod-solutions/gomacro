@@ -23,13 +23,13 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/lifepod-solutions/gomacro/base"
+	"github.com/lifepod-solutions/gomacro/base/genimport"
+	"github.com/lifepod-solutions/gomacro/base/output"
+	"github.com/lifepod-solutions/gomacro/base/paths"
+	"github.com/lifepod-solutions/gomacro/base/reflect"
+	"github.com/lifepod-solutions/gomacro/base/untyped"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 // =========================== forget package ==================================

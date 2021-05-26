@@ -10,7 +10,7 @@ package types
 import (
 	"go/token"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/lifepod-solutions/gomacro/go/etoken"
 )
 
 // declare CTI methods on basic types, Array, Chan, Map, Slice

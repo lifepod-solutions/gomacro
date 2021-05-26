@@ -20,10 +20,10 @@ import (
 	"go/ast"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/lifepod-solutions/gomacro/ast2"
+	"github.com/lifepod-solutions/gomacro/base"
+	etoken "github.com/lifepod-solutions/gomacro/go/etoken"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 // MacroExpandNodeCodewalk traverses the whole AST tree using pre-order traversal,

@@ -21,7 +21,7 @@ package fast
 import (
 	"go/token"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/lifepod-solutions/gomacro/xreflect"
 )
 
 type jitExpr struct{}

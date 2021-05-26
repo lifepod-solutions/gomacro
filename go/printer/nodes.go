@@ -17,7 +17,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	etoken "github.com/cosmos72/gomacro/go/etoken"
+	etoken "github.com/lifepod-solutions/gomacro/go/etoken"
 )
 
 // Formatting issues:
